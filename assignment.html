@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>My Assignment</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>My Assignment</title>
     <style>
-    body {background-image: () ;
-    background: antiquewhite;}
+    body {background: antiquewhite;}
     h1{font-family: fantasy; font-size: 18; }
     p{font-family: cursive; font-size: 11;}
     ul{font-family: cursive; font-size: 11;}
     </style>
 </head>
+<body>
 <h1><p> Callum McCarthy-Allen</p></h1>
 <h3> About Me</h3>
 <p>My name's Callum but I tend to go by Cal. I'm a former retail worker who's grown up around all different kinds of technology, mostly computers and gaming consoles.
@@ -54,9 +53,19 @@ I also play a lot of videogames such as shooters and RPGs and I read pretty much
         -Characters<br>
         -World History<br> 
     </ul> 
-<p>With this being such a big undertaking, me working alone on it, and it being a lot of info that both myself and players need to refer to at various points
-I choose to (at least for the time being) use a basic content hosting site called Kanka to store everything we need.
-<br>For an in-depth look at the project, you can actually visit our project profile here: <a href="https://kanka.io/en/campaign/146064">Tales of Numara.</a>
-I try my best to update regularly but unfortunately that's not always possible for various reasons. </p>
+<p>With this being such a big undertaking, I chose to store all my information on a content management platform called Kanka.</p>
+<p>Click the button below to generate a link and go explore my project!</p>
+
+<button onclick="myFunction()">Codex Link</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "https://kanka.io/en/campaign/146064";
+}
+</script>
+<p> I was hoping to make the message that appears after clicking the button or the button itself a link but I couldn't quite work it out so feel free to copy and paste it until I can work out the issue. </p>
+
 </body>
 </html>
